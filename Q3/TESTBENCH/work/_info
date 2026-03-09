@@ -1,0 +1,82 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/CC1/Desktop/ASSIGNMENTS/Q3/TESTBENCH
+vbinary_to_gray_4bit
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1772521854
+!i10b 1
+!s100 P9oGD7K?8Yf^7L^4B>Q3O1
+Imn^X=R4b7`WNbza]1_IcZ0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 binary_to_gray_4bit_sv_unit
+S1
+R0
+w1772517195
+8../DESIGN/binary_to_gray_4bit.sv
+F../DESIGN/binary_to_gray_4bit.sv
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1772521854.000000
+!s107 ../DESIGN/binary_to_gray_4bit.sv|
+!s90 -reportprogress|300|-sv|../DESIGN/binary_to_gray_4bit.sv|
+!i113 1
+o-sv
+Z6 tCvgOpt 0
+vconverter_tb
+R1
+!s110 1772521855
+!i10b 1
+!s100 Kgz4R?Sg6XYJXhe^o>V>=0
+IIbP<JHLVDe=28M3Ul@M:n3
+R3
+!s105 converter_tb_sv_unit
+S1
+R0
+w1772521845
+8converter_tb.sv
+Fconverter_tb.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 converter_tb.sv|
+!s90 -reportprogress|300|-sv|converter_tb.sv|
+!i113 1
+o-sv
+R6
+vgray_to_binary_4bit
+R1
+R2
+!i10b 1
+!s100 ?ljaDNiRe0hac[HWOnePB1
+Ib27HD?OMoQgk9d^CdU6YH2
+R3
+!s105 gray_to_binary_4bit_sv_unit
+S1
+R0
+w1772521514
+8../DESIGN/gray_to_binary_4bit.sv
+F../DESIGN/gray_to_binary_4bit.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 ../DESIGN/gray_to_binary_4bit.sv|
+!s90 -reportprogress|300|-sv|../DESIGN/gray_to_binary_4bit.sv|
+!i113 1
+o-sv
+R6

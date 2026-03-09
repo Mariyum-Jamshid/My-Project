@@ -1,0 +1,19 @@
+# do ./run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:40:31 on Mar 02,2026
+# vlog -reportprogress 300 -sv ../DESIGN/ mux4x1_ifelse.sv 
+# ** Warning: (vlog-20) Cannot access for reading (Permission denied) file "../DESIGN/".
+# ** Error: (vlog-7) Failed to open design unit file "../DESIGN/" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 14:40:31 on Mar 02,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+# ** Error: C:/intelFPGA_lite/17.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ././run.do line 6
+# C:/intelFPGA_lite/17.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -sv ../DESIGN/ mux4x1_ifelse.sv"
+quit -sim

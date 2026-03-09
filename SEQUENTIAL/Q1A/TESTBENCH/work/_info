@@ -1,0 +1,58 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/CC1/Desktop/ASSIGNMENTS/SEQUENTIAL/Q1A/TESTBENCH
+vdelay_32bit
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1772626938
+!i10b 1
+!s100 WBEQo[DAJl:MjQJIf9Oa83
+IKYNS5DdJT6dRb]R:nMC7E1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 delay_32bit_sv_unit
+S1
+R0
+w1772606721
+8../DESIGN/delay_32bit.sv
+F../DESIGN/delay_32bit.sv
+L0 8
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1772626938.000000
+!s107 ../DESIGN/delay_32bit.sv|
+!s90 -reportprogress|300|-sv|../DESIGN/delay_32bit.sv|
+!i113 1
+o-sv
+Z6 tCvgOpt 0
+vdelay_32bit_tb
+R1
+R2
+!i10b 1
+!s100 BU183D1D2zQ3@TW]A:V0i2
+I_zGW0^MgVVeKlk;bWcTg92
+R3
+!s105 delay_32bit_tb_sv_unit
+S1
+R0
+w1772626924
+8delay_32bit_tb.sv
+Fdelay_32bit_tb.sv
+L0 8
+R4
+r1
+!s85 0
+31
+R5
+!s107 delay_32bit_tb.sv|
+!s90 -reportprogress|300|-sv|delay_32bit_tb.sv|
+!i113 1
+o-sv
+R6

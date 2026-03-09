@@ -1,0 +1,54 @@
+`timescale 1ns/1ps
+
+module delay_32bit_tb;
+
+    // Parameter for delay cycles
+    parameter N = 3;
+
+    // Signals
+    logic clk;
+    logic rst;
+    logic [31:0] in;
+    logic [31:0] out;
+
+    // Instantiate DUT
+    delay_32bit #(N) dut (
+        .clk(clk),
+        .rst(rst),
+        .in(in),
+        .out(out)
+    );
+
+    // Clock generation: 10ns period
+    initial clk = 0;
+    always #5 clk = ~clk;
+
+    // Stimulus
+    initial begin
+        rst = 1;           // Apply reset
+        in  = 32'h00000000;
+        #12 rst = 0;       // Release reset after 12ns
+
+        // Apply some test inputs
+        #10 in = 32'hA1;
+        #10 in = 32'hB2;
+        #10 in = 32'hC3;
+        #10 in = 32'hD4;
+        #10 in = 32'hE5;
+
+       // #50 $finish;       // Stop simulation after enough time
+    end
+
+    // Monitor in console
+    initial begin
+        $display("Time(ns) | in        | out");
+        $monitor("%0t | %h | %h", $time, in, out);
+    end
+
+    // Add all signals to waveform for ModelSim
+    initial begin
+        $dumpfile("delay_32bit.vcd"); // optional for GTKWave
+        $dumpvars(0, delay_32bit_tb);
+    end
+
+endmodule
