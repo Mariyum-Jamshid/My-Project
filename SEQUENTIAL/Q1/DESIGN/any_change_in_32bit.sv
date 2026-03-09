@@ -18,7 +18,7 @@ module any_change_in_32bit (
 
 always_ff @(posedge clk or posedge rst) begin
     if (rst) begin
-        data_d<= 32'h00000000;A
+        data_d<= 32'h00000000;
 
     end
     else begin
