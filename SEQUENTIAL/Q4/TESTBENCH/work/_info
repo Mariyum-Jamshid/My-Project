@@ -1,0 +1,106 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/CC1/Desktop/ASSIGNMENTS/SEQUENTIAL/Q4/TESTBENCH
+vcomplex_add_mul
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1773291481
+!i10b 1
+!s100 [^Nc[8gai2al_ESVfA9Mm2
+IFVzb7[GV47dlIk7J0RG5Z0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s105 complex_add_mul_sv_unit
+S1
+R0
+w1773291447
+8../DESIGN/complex_add_mul.sv
+F../DESIGN/complex_add_mul.sv
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1773291481.000000
+!s107 ../DESIGN/complex_add_mul.sv|
+!s90 -reportprogress|300|-sv|../DESIGN/complex_add_mul.sv|
+!i113 1
+o-sv
+Z5 tCvgOpt 0
+vcomplex_add_mul_tb
+R1
+!s110 1773291482
+!i10b 1
+!s100 ZT0[^_OZCfI8AP[[fV^9A3
+IC6FX:MdkUBN5`Rj3[8FzM0
+R2
+!s105 complex_add_mul_tb_sv_unit
+S1
+R0
+w1773291434
+8complex_add_mul_tb.sv
+Fcomplex_add_mul_tb.sv
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 complex_add_mul_tb.sv|
+!s90 -reportprogress|300|-sv|complex_add_mul_tb.sv|
+!i113 1
+o-sv
+R5
+vcomplex_adder
+R1
+!s110 1773248747
+!i10b 1
+!s100 aEWc7lHVLz[ZU[KWH:U::2
+IPjPz]iR=h9]^DkCgW?VFW3
+R2
+!s105 complex_adder_sv_unit
+S1
+R0
+w1773248204
+8../DESIGN/complex_adder.sv
+F../DESIGN/complex_adder.sv
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1773248747.000000
+!s107 ../DESIGN/complex_adder.sv|
+!s90 -reportprogress|300|-sv|../DESIGN/complex_adder.sv|
+!i113 1
+o-sv
+R5
+vcomplex_adder_tb
+R1
+!s110 1773248748
+!i10b 1
+!s100 K8eG@I`GC2]zYfZg90AJa3
+IT`@DS`[C?X^Qz8D^M<@263
+R2
+!s105 complex_adder_tb_sv_unit
+S1
+R0
+w1773248623
+8complex_adder_tb.sv
+Fcomplex_adder_tb.sv
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1773248748.000000
+!s107 complex_adder_tb.sv|
+!s90 -reportprogress|300|-sv|complex_adder_tb.sv|
+!i113 1
+o-sv
+R5

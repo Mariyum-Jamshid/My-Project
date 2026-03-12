@@ -1,0 +1,60 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/CC1/Desktop/ASSIGNMENTS/SEQUENTIAL/Q2A/TESTBENCH
+vParallel_In_Serial_Out_16_bit_circuit
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1773218088
+!i10b 1
+!s100 zeC09B2hN2NiN=LR1PgT;0
+IUV2fQCkVXoU[2O?QmTUHn1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 Parallel_In_Serial_Out_16_bit_circuit_sv_unit
+S1
+R0
+w1773211337
+8../DESIGN/Parallel_In_Serial_Out_16_bit_circuit.sv
+F../DESIGN/Parallel_In_Serial_Out_16_bit_circuit.sv
+L0 5
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1773218088.000000
+!s107 ../DESIGN/Parallel_In_Serial_Out_16_bit_circuit.sv|
+!s90 -reportprogress|300|-sv|../DESIGN/Parallel_In_Serial_Out_16_bit_circuit.sv|
+!i113 1
+o-sv
+Z6 tCvgOpt 0
+n@parallel_@in_@serial_@out_16_bit_circuit
+vParallel_In_Serial_Out_16_bit_circuit_tb
+R1
+R2
+!i10b 1
+!s100 _D?42<0cL^5AR_[>hjFDQ1
+I]eQS5aRZK5mg]CVGkQCie3
+R3
+!s105 Parallel_In_Serial_Out_16_bit_circuit_tb_sv_unit
+S1
+R0
+w1773218025
+8Parallel_In_Serial_Out_16_bit_circuit_tb.sv
+FParallel_In_Serial_Out_16_bit_circuit_tb.sv
+L0 5
+R4
+r1
+!s85 0
+31
+R5
+!s107 Parallel_In_Serial_Out_16_bit_circuit_tb.sv|
+!s90 -reportprogress|300|-sv|Parallel_In_Serial_Out_16_bit_circuit_tb.sv|
+!i113 1
+o-sv
+R6
+n@parallel_@in_@serial_@out_16_bit_circuit_tb
